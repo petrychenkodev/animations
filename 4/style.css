@@ -1,0 +1,16 @@
+div{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	font-size: 40px;
+	animation-name: modal;
+	animation-duration: 10s;
+	transform: scale(0);
+}
+@keyframes modal{
+	from{transform: scale(0);}
+	39%{transform: scale(0);}
+	40%{transform: scale(1);}
+	90%{transform: scale(1);}
+	91%{transform: scale(0);}
+}

@@ -1,0 +1,14 @@
+.second{
+	width:100px; 
+	height:100px;
+	background-color: red; 
+	position:absolute; 
+	top: 300px;
+	left: 50%;
+	animation:beat 1s linear reverse infinite; 
+}
+@keyframes beat{
+	75%{transform: scale(2);}
+	90%{transform: scale(1.5);}
+		100%{transform: scale(1.5);}
+}

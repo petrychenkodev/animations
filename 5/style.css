@@ -1,0 +1,33 @@
+.mw{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	font-size: 40px;
+	transform: scale(0);
+	position: absolute;
+	left: -30%;
+	top: -100%;
+}
+@keyframes modal{
+	from{transform: scale(0);}
+	17.5%{transform: scale(0);}
+	50%{transform: scale(1);}
+	90%{transform: scale(1);}
+	100%{transform: scale(0);}
+}
+.button{
+	margin: 30vh auto;
+	background-color: green;
+	color: white;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 40px;
+	position: relative;
+	cursor: pointer;
+}
+.button:hover .mw{
+	animation-name: modal;
+	animation-duration: 3.5s;
+}
